@@ -28,11 +28,28 @@
   color: #61dafb;
 }
 
+button {
+  border:none;
+  outline: none;
+  background-color:transparent;
+}
+
+button:hover {
+  cursor: pointer !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 600px) {
+  .body-container {
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
 }
